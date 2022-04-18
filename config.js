@@ -1,5 +1,15 @@
-const Interactives = {
+const Config = {
     fontStyle:{
+        new: {
+            text: 'new',
+            size: 'fds',
+            class: ['new-class']
+        },
+        normal: {
+            text: 'normal',
+            size:'20px',
+            class:['normal-class'],
+        },
         large: {
             text: 'large',
             size:'34px',
@@ -9,6 +19,12 @@ const Interactives = {
             text: 'body',
             size:'14px',
             class: [ 'body-class' ],
+        }
+    },
+    colorStyle:{
+        red : {
+            text: 'red',
+            color:'#0f0'
         }
     }
     // {
@@ -26,4 +42,4 @@ const Interactives = {
     // }
 }
 
-export default Interactives;
+export default Config;
